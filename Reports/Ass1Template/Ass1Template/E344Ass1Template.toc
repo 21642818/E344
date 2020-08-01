@@ -1,0 +1,25 @@
+\contentsline {chapter}{Declaration}{i}
+\contentsline {chapter}{Contents}{ii}
+\contentsline {chapter}{List of Figures}{iii}
+\contentsline {chapter}{List of Tables}{iv}
+\contentsline {chapter}{Nomenclature}{v}
+\contentsline {chapter}{\numberline {1}System design}{1}
+\contentsline {section}{\numberline {1.1}System overview}{1}
+\contentsline {chapter}{\numberline {2}Voltage regulation}{2}
+\contentsline {section}{\numberline {2.1}Background}{2}
+\contentsline {section}{\numberline {2.2}Design}{2}
+\contentsline {section}{\numberline {2.3}Design}{2}
+\contentsline {section}{\numberline {2.4}Simulation}{3}
+\contentsline {section}{\numberline {2.5}Summary and implementation}{3}
+\contentsline {chapter}{\numberline {3}Temperature sensor}{5}
+\contentsline {section}{\numberline {3.1}Background}{5}
+\contentsline {section}{\numberline {3.2}Design}{5}
+\contentsline {subsection}{\numberline {3.2.1}Simualtion}{5}
+\contentsline {section}{\numberline {3.3}Summary and implementation}{5}
+\contentsline {chapter}{\numberline {4}System and conclusion}{6}
+\contentsline {section}{\numberline {4.1}System}{6}
+\contentsline {section}{\numberline {4.2}Lessons learnt}{6}
+\contentsline {chapter}{References}{7}
+\contentsline {chapter}{Appendix A: Social contract}{8}
+\contentsline {chapter}{Appendix B: GitHub Activity Heatmap}{9}
+\contentsline {chapter}{Appendix B: Stuff you want to include}{10}
