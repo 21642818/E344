@@ -1,4 +1,4 @@
-* C:\Users\Jerri\OneDrive - Stellenbosch University\3rd Year EE\E Design 344\E344\LTSpice\Marais_21642818_A1 - Copy.asc
+* C:\Users\Jerri\OneDrive - Stellenbosch University\3rd Year EE\E Design 344\E344\LTSpice\Marais_21642818_A1.asc
 V2 N002 N001 PWL file=PWLinput.csv
 V3 Stimulus N002 SINE({sineOffset} {sineAmplitude} {sineFreq})
 V1 N001 0 {dcAmplitude}
@@ -7,7 +7,19 @@ R_Sense 9V N003 0.010
 XU1 9V 0 5V LM7805
 C1 9V 0 0.33µ
 C2 5V 0 0.1µ
-R_load 5V 0 50
+XU2 Vref- N004 5V 0 N004 TL081
+XU3 N007 N005 5V 0 N006 TLC2272
+R2 Vref- 0 300
+R1 5V Vref- 47k
+Rg N005 N004 3.9k
+Rf N006 N005 110k
+Rb1 5V N007 82k
+Rb2 N007 0 82k
+Cs N007 0 2.2µ
+Rs N007 Stimulus 10k
+R_lpf Vout N006 47k
+C_lpf Vout 0 270n
+R_vg N007 0 300k
 .tran 0 {transtop} 0 {timestep}
 .include E344cfg.txt
 * Don't change these -- used for auto-assessments.\nYou may modify input files while developing.\nFor submission: \n  * Use only 9V supply \n  * Connect "Stimulus" to your input\n  * Connect "Vout" to your output.\n  * Only one label name per net.
@@ -20,13 +32,13 @@ R_load 5V 0 50
 .include LM78XX_RS.lib
 .include TLC2272.LIB
 .include TL081.LIB
-.meas Pout AVG V(5V)*I(R_load)
-.meas Pin AVG -V(9V)*I(R_sense)
-.meas Eff param Pout/Pin
-.meas Iout AVG I(R_load)
-.meas Iin AVG -I(R_sense)
+;meas Pout AVG V(5V)*I(R_load)
+;meas Eff param Pout/Pin
+;meas Iout AVG I(R_load)
 .include LM2595_ADJ_TRANS.LIB
 .include diode.lib
+.meas Pin AVG -V(9V)*I(R_sense)
+.meas Iin AVG -I(R_sense)
 .lib C:\Users\Jerri\OneDrive - Stellenbosch University\3rd Year EE\E Design 344\E344\LTSpice\LM78XX_RS.lib
 .backanno
 .end

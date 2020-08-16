@@ -1,0 +1,7 @@
+* C:\Users\Jerri\OneDrive - Stellenbosch University\3rd Year EE\E Design 344\E344\LTSpice\Draft1.asc
+R1 out N001 47k
+C1 out 0 270n
+V1 N001 0 PWL(0 0 50m 400m)
+.tran 0 500m 0 1u
+.backanno
+.end
