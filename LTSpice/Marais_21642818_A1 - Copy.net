@@ -1,0 +1,32 @@
+* C:\Users\Jerri\OneDrive - Stellenbosch University\3rd Year EE\E Design 344\E344\LTSpice\Marais_21642818_A1 - Copy.asc
+V2 N002 N001 PWL file=PWLinput.csv
+V3 Stimulus N002 SINE({sineOffset} {sineAmplitude} {sineFreq})
+V1 N001 0 {dcAmplitude}
+V4 N003 0 9
+R_Sense 9V N003 0.010
+XU1 9V 0 5V LM7805
+C1 9V 0 0.33µ
+C2 5V 0 0.1µ
+R_load 5V 0 50
+.tran 0 {transtop} 0 {timestep}
+.include E344cfg.txt
+* Don't change these -- used for auto-assessments.\nYou may modify input files while developing.\nFor submission: \n  * Use only 9V supply \n  * Connect "Stimulus" to your input\n  * Connect "Vout" to your output.\n  * Only one label name per net.
+* Config file:
+* Analysis setup:
+* Battery
+* Sensor-\nemulating \nstimulus
+* Assessed nets:\nConnect to your outputs
+* G. Marais.,  21642818\nV(0degV) = 620 mV\ndeltaV/degV = 20 mV
+.include LM78XX_RS.lib
+.include TLC2272.LIB
+.include TL081.LIB
+.meas Pout AVG V(5V)*I(R_load)
+.meas Pin AVG -V(9V)*I(R_sense)
+.meas Eff param Pout/Pin
+.meas Iout AVG I(R_load)
+.meas Iin AVG -I(R_sense)
+.include LM2595_ADJ_TRANS.LIB
+.include diode.lib
+.lib C:\Users\Jerri\OneDrive - Stellenbosch University\3rd Year EE\E Design 344\E344\LTSpice\LM78XX_RS.lib
+.backanno
+.end

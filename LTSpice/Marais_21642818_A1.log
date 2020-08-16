@@ -1,0 +1,214 @@
+Circuit: * C:\Users\Jerri\OneDrive - Stellenbosch University\3rd Year EE\E Design 344\E344\LTSpice\Marais_21642818_A1.asc
+
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}&v(b)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))&v(b)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}}|v(b)>{{vthresh}}|v(c)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh))|v(b)>((vthresh))|v(c)>((vthresh)),((vdd)),((vss)))"
+Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vdd}},{{vss}})}"
+    Error: undefined symbol in: "if([v](a)>((vthresh)),((vdd)),((vss)))"
+Warning: Multiple definitions of model "mur460" Type: Diode
+V2: Removing PWL point (0.199,1.34)
+WARNING: Less than two connections to node STIMULUS.  This node is used by V3.
+WARNING: Less than two connections to node N009.  This node is used by R1.
+WARNING: Less than two connections to node N015.  This node is used by RB1.
+WARNING: Less than two connections to node NC_01.  This node is used by RS.
+WARNING: Less than two connections to node NC_02.  This node is used by R:U11:_R7.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.5165
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 5.49501
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 5.50104
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 0.118371%
+Source Step = 0.236742%
+Source Step = 0.355114%
+Source Step = 0.473485%
+Source Step = 0.591856%
+vernier = 0.00585938
+Source Step = 0.73982%
+Source Step = 0.917377%
+Source Step = 1.09493%
+Source Step = 1.27249%
+Source Step = 1.45005%
+vernier = 0.00878906
+Source Step = 1.66312%
+Source Step = 1.92945%
+Source Step = 2.19579%
+Source Step = 2.46212%
+Source Step = 2.72846%
+vernier = 0.0131836
+Source Step = 3.03474%
+Source Step = 3.43424%
+Source Step = 3.83375%
+Source Step = 4.23325%
+Source Step = 4.63275%
+vernier = 0.0197754
+Source Step = 5.07221%
+Source Step = 5.67146%
+Source Step = 6.27071%
+Source Step = 6.86997%
+Source Step = 7.46922%
+vernier = 0.0296631
+Source Step = 8.09844%
+Source Step = 8.99732%
+Source Step = 9.8962%
+Source Step = 10.7951%
+Source Step = 11.694%
+Source Step = 12.5928%
+vernier = 0.0444946
+Source Step = 13.9412%
+Source Step = 15.2895%
+Source Step = 16.6378%
+Source Step = 17.9861%
+Source Step = 19.3345%
+vernier = 0.0667419
+Source Step = 21.2895%
+Source Step = 23.312%
+Source Step = 25.3345%
+Source Step = 27.357%
+Source Step = 29.3795%
+vernier = 0.100113
+Source Step = 32.2109%
+Source Step = 35.2447%
+Source Step = 38.2784%
+Source Step = 41.3121%
+Source Step = 44.3458%
+vernier = 0.150169
+Source Step = 48.4414%
+Source Step = 52.9919%
+Source Step = 57.5425%
+Source Step = 62.0931%
+Source Step = 66.6437%
+vernier = 0.225254
+Source Step = 72.5595%
+Source Step = 79.3854%
+Source Step = 86.2112%
+Source Step = 93.0371%
+Source Step = 97.1433%
+vernier = 0.000879899
+Source Step = 97.1593%
+Source Step = 97.186%
+Source Step = 97.2126%
+Source Step = 97.2393%
+Source Step = 97.266%
+Source Step = 97.2926%
+Source Step = 97.3193%
+Source Step = 97.346%
+Source Step = 97.3726%
+Source Step = 97.3993%
+Source Step = 97.4259%
+Source Step = 97.4526%
+vernier = 0.00131985
+Source Step = 97.4873%
+Source Step = 97.5273%
+Source Step = 97.5673%
+Source Step = 97.6073%
+Source Step = 97.6472%
+vernier = 0.00197977
+Source Step = 97.6972%
+Source Step = 97.7572%
+Source Step = 97.8172%
+Source Step = 97.8772%
+Source Step = 97.9372%
+Source Step = 97.9972%
+Source Step = 98.0572%
+vernier = 0.00296966
+Source Step = 98.1292%
+Source Step = 98.2192%
+Source Step = 98.3092%
+Source Step = 98.3992%
+Source Step = 98.4892%
+vernier = 0.00445449
+Source Step = 98.5926%
+Source Step = 98.7276%
+Source Step = 98.8626%
+Source Step = 98.9976%
+Source Step = 99.1326%
+vernier = 0.00668173
+Source Step = 99.2811%
+Source Step = 99.4835%
+Source Step = 99.686%
+Source Step = 99.8885%
+Source stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(u11:fb)
+Ignoring empty pin current: Ix(u11:fb)
+Changing Tseed to 1e-008
+Heightened Def Con from 1.15775e-007 +++++++++++++++++++++++++++++++++to 1.16775e-007
+Heightened Def Con from 1.16775e-007 +++++++++++++++++++++++++++++++to 1.16775e-007
+Heightened Def Con from 1.16775e-007 ++++++++++++++++++++++++++++++++to 1.1865e-007
+Heightened Def Con from 1.1865e-007 ++++++++++++++++++++++++++++++to 1.20775e-007
+Heightened Def Con from 1.20775e-007 +++++++++++++++++++++++++++++to 1.2129e-007
+Heightened Def Con from 1.2129e-007 ++++++++++++++++++++++++++++to 1.21337e-007
+Heightened Def Con from 1.21337e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++++++to 1.21369e-007
+Heightened Def Con from 1.21369e-007 +++++++++++++++++++++++++to 1.21371e-007
+Heightened Def Con from 1.21371e-007 +++++++++++++++++++++++++++++to 1.21371e-007
+Heightened Def Con from 1.21371e-007 +++++++++++++++++++++++++++++to 1.21371e-007
+Heightened Def Con from 1.21371e-007 ++++++++++++++++++++++++++++to 1.21371e-007
+Heightened Def Con from 1.21371e-007 to 1.21371e-007
+Heightened Def Con from 1.21371e-007 +++++++++++++++++++++++++++++++++++++++++++to 1.21371e-007
+Heightened Def Con from 1.21371e-007 ++++++++++++++++++++++++++++++++++++++++++++++++++Fatal Error: Analysis:  Time step too small; time = 1.21371e-007, timestep = 1.25e-019: trouble with node "u2:7"
+
