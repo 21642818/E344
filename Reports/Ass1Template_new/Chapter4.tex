@@ -4,5 +4,11 @@
 Report on the integration of the voltage regulator and temperature sensing circuitry. 
 Report on noise levels and how the temperature sensor will fit into the system (E.g. what the calibration will look like and what the the measurement error will be given the range, quantisation error and noise). 
 
+The system performs as expected. The voltage regulator is not influenced by the temperature conditioning circuit, given the buffer, which will allow the addition of more components if needed. The noise levels are suppressed to almost \SI{40}{\milli\volt} which will make calibration much quicker and less quantisation errors. The sensor will need to be calibrated at \SI{38}{\celsius} which will give a \SI{2}{\volt} output to the ADC of the micro-controller.
+
 \section{Lessons learnt}
-Write down at least three of the most important things you have learnt in Assignment 1.
+\begin{itemize}
+    \item Better power efficiency equals more components and more expensive circuit 
+    \item You can have a circuit that has a super accurate response, but a less complicated circuit that still meets the requirements will also get the job done.
+    \item You don't have to over-design everything.
+\end{itemize}
