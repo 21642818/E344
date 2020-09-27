@@ -1,4 +1,4 @@
-Circuit: * C:\Users\Jerri\Desktop\Assignment2\E344Ass2.asc
+Circuit: * C:\Users\Jerri\OneDrive - Stellenbosch University\3rd Year EE\E Design 344\E344\Python\E344Ass2.asc
 
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
@@ -192,47 +192,42 @@ Source Step = 3.0303%
 Source Step = 6.25%
 Source stepping failed
 
-Pseudo transient terminated at 102.389 s, solution accepted ready or not!
-Heightened Def Con from 0.944192 to 0.944192
+Pseudo transient terminated at 100.756 s, solution accepted ready or not!
+Heightened Def Con from 0.324274 to 0.324274
 Heightened Def Con from 1.9785 to 1.9785
-Heightened Def Con from 1.98109 to 1.98109
 Heightened Def Con from 2.4367 to 2.4367
 Heightened Def Con from 4.4327 to 4.4327
-Heightened Def Con from 4.99984 +to 4.99984
-Heightened Def Con from 5.44 to 5.44
 Heightened Def Con from 9.9927 to 9.9927
-Heightened Def Con from 9.99528 to 9.99528
 Heightened Def Con from 10.4447 to 10.4447
-Heightened Def Con from 15.4454 to 15.4454
+Heightened Def Con from 12.9997 to 12.9997
+Heightened Def Con from 13.4406 to 13.4406
+Heightened Def Con from 14.9879 +to 14.9879
+Heightened Def Con from 15.4454 +to 15.4454
 Heightened Def Con from 15.9975 to 15.9975
-Heightened Def Con from 16.4422 to 16.4422
-Heightened Def Con from 19.9926 +to 19.9926
-Heightened Def Con from 20.9974 +to 20.9974
+Heightened Def Con from 16 +to 16
+Heightened Def Con from 18.4367 to 18.4367
+Heightened Def Con from 18.4367 to 18.4367
+Heightened Def Con from 19.4522 to 19.4522
 Heightened Def Con from 21.9965 to 21.9965
-Heightened Def Con from 24.4412 +to 24.4412
+Heightened Def Con from 21.9983 to 21.9983
 Heightened Def Con from 26.0007 to 26.0007
-Heightened Def Con from 26.9922 +to 26.9922
-Heightened Def Con from 27.9996 to 27.9996
-Heightened Def Con from 29.9968 to 29.9968
+Heightened Def Con from 26.0032 to 26.0032
 
-iout: AVG(i(r_sense)*1000)=-12.4942 FROM 0 TO 30.0008
-
-
-Date: Sun Sep 27 21:49:50 2020
-Total elapsed time: 28.092 seconds.
+Date: Sun Sep 27 22:28:53 2020
+Total elapsed time: 32.637 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 342107
-traniter = 210506
-tranpoints = 75411
-accept = 68743
-rejected = 8575
+totiter = 303667
+traniter = 175063
+tranpoints = 69072
+accept = 64658
+rejected = 6219
 matrix size = 215
 fillins = 1235
 solver = Normal
-Thread vector: 12.6/8.5[4] 4.7/2.5[4] 5.7/3.3[4] 0.7/1.0[1]  2592/500
-Matrix Compiler1: 170.06 KB object code size  23.3/9.3/[6.2]
-Matrix Compiler2: 39.54 KB object code size  3.3/3.6/[1.4]
+Thread vector: 12.0/9.8[4] 4.1/4.4[1] 6.3/4.9[4] 0.7/1.6[1]  2592/500
+Matrix Compiler1: 170.06 KB object code size  23.7/11.2/[7.7]
+Matrix Compiler2: 39.54 KB object code size  5.0/3.7/[1.5]
 
