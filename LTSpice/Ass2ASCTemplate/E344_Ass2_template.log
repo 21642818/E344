@@ -1,0 +1,210 @@
+Circuit: * C:\Users\Jerri\OneDrive - Stellenbosch University\3rd Year EE\E Design 344\E344\LTSpice\Ass2ASCTemplate\E344_Ass2_template.asc
+
+Warning: Multiple definitions of model "mur460" Type: Diode
+WARNING: Node N012 is floating.
+WARNING: Node N015 is floating.
+
+WARNING: Less than two connections to node N001.  This node is used by R1.
+WARNING: Less than two connections to node N005.  This node is used by R2.
+WARNING: Less than two connections to node N012.  This node is used by R10.
+WARNING: Less than two connections to node N004.  This node is used by R11.
+WARNING: Less than two connections to node N015.  This node is used by A1.
+WARNING: Less than two connections to node VONESHOT.  This node is used by A1.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.5165
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 5.49501
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 5.50104
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 7.57576%
+Source Step = 15.1515%
+Source Step = 22.7273%
+Source Step = 30.303%
+vernier = 0.0625
+Source Step = 29.5662%
+Source Step = 29.5958%
+Source Step = 29.6254%
+Source Step = 29.6549%
+Source Step = 29.6845%
+vernier = 0.00146484
+Source Step = 29.7186%
+Source Step = 29.763%
+Source Step = 29.8074%
+Source Step = 29.8517%
+Source Step = 29.8961%
+vernier = 0.00219727
+Source Step = 29.945%
+Source Step = 30.0115%
+Source Step = 30.0781%
+Source Step = 30.1447%
+Source Step = 30.2113%
+vernier = 0.0032959
+Source Step = 30.2812%
+Source Step = 30.3811%
+Source Step = 30.481%
+Source Step = 30.5808%
+Source Step = 30.6807%
+Source Step = 30.7806%
+vernier = 0.00494385
+Source Step = 30.9304%
+Source Step = 31.0802%
+Source Step = 31.23%
+Source Step = 31.3798%
+Source Step = 31.5297%
+vernier = 0.00741577
+Source Step = 31.7469%
+Source Step = 31.9716%
+Source Step = 32.1963%
+Source Step = 32.421%
+Source Step = 32.6458%
+vernier = 0.0111237
+Source Step = 32.9604%
+Source Step = 33.2975%
+Source Step = 33.6345%
+Source Step = 33.9716%
+Source Step = 34.3087%
+vernier = 0.0166855
+Source Step = 34.7638%
+Source Step = 35.2694%
+Source Step = 35.775%
+Source Step = 36.2806%
+Source Step = 36.7862%
+vernier = 0.0250282
+Source Step = 37.4435%
+Source Step = 38.202%
+Source Step = 38.9604%
+Source Step = 39.7188%
+Source Step = 40.4773%
+vernier = 0.0375423
+Source Step = 41.4253%
+Source Step = 42.563%
+Source Step = 43.7006%
+Source Step = 44.8382%
+Source Step = 45.9759%
+vernier = 0.0563135
+Source Step = 47.3411%
+Source Step = 49.0475%
+Source Step = 50.754%
+Source Step = 52.4605%
+Source Step = 54.1669%
+vernier = 0.0844703
+Source Step = 56.1294%
+Source Step = 58.6891%
+Source Step = 61.2488%
+Source Step = 63.8085%
+Source Step = 66.3682%
+vernier = 0.126705
+Source Step = 69.1839%
+Source Step = 73.0234%
+Source Step = 76.863%
+Source Step = 80.7026%
+Source Step = 84.5421%
+vernier = 0.190058
+Source Step = 88.5737%
+Source Step = 92.6412%
+vernier = 0.00296966
+Source Step = 92.6952%
+Source Step = 92.7852%
+Source Step = 92.8752%
+Source Step = 92.9651%
+Source Step = 93.0551%
+vernier = 0.00445449
+Source Step = 93.1811%
+Source Step = 93.252%
+Source Step = 93.2857%
+Source Step = 93.3195%
+Source Step = 93.3532%
+Source Step = 93.387%
+Source Step = 93.4207%
+Source Step = 93.4545%
+Source Step = 93.4882%
+Source Step = 93.522%
+Source Step = 93.5557%
+Source Step = 93.5895%
+Source Step = 93.6232%
+Source Step = 93.6569%
+Source Step = 93.6907%
+Source Step = 93.7244%
+Source Step = 93.7582%
+Source Step = 93.7919%
+Source Step = 93.8257%
+Source Step = 93.8594%
+Source Step = 93.8932%
+Source Step = 93.9269%
+Source Step = 93.9607%
+Source Step = 93.9944%
+Source Step = 94.0282%
+Source Step = 94.0619%
+Source Step = 94.0956%
+Source Step = 94.1294%
+Source Step = 94.1631%
+Source Step = 94.1969%
+Source Step = 94.2306%
+Source Step = 94.2644%
+Source Step = 94.2981%
+Source Step = 94.3319%
+Source Step = 94.3656%
+Source Step = 94.3994%
+Source Step = 94.4331%
+Source Step = 94.4669%
+Source Step = 94.5006%
+Source Step = 94.5343%
+Source Step = 94.5681%
+Source Step = 94.6018%
+Source Step = 94.6356%
+Source Step = 94.6693%
+Source Step = 94.7031%
+Source Step = 94.7368%
+Source Step = 94.7706%
+Source Step = 94.8043%
+Source Step = 94.8381%
+Source Step = 94.8718%
+Source Step = 94.9055%
+Source Step = 94.9393%
+Source Step = 94.973%
+Source Step = 95.0068%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 2.37038%
+Source stepping failed
+
+Pseudo Transient failed in finding the operating point at 3.65093 s.
+Trouble finding operating point....skipping operating point for Transient analysis.
+
+Date: Fri Sep 18 12:10:27 2020
+Total elapsed time: 25.100 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 687852
+traniter = 0
+tranpoints = 1
+accept = 1
+rejected = 12822
+matrix size = 227
+fillins = 852
+solver = Normal
+Thread vector: 14.0/8.9[4] 6.3/2.6[4] 6.2/3.6[4] 0.8/0.9[1]  2592/500
+Matrix Compiler1: 92.44 KB object code size  17.0/7.5/[4.4]
+Matrix Compiler2: 33.37 KB object code size  4.4/4.0/[1.5]
+
