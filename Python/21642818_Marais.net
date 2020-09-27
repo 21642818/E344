@@ -1,0 +1,44 @@
+* C:\Users\Jerri\Desktop\Assignment2\21642818_Marais.asc
+V2 N004 N003 PWL file=PWLinput.csv
+V3 Stimulus N004 SINE({sineOffset} {sineAmplitude} {sineFreq})
+V1 N003 0 {dcAmplitude}
+V4 N010 0 9
+R_Sense 9V N010 0.010
+XU1 9V 0 5V LM7805
+C1 9V 0 0.33µ
+C2 5V 0 0.1µ
+V5 VBeat 0 PWL file=BPM120.csv
+Rvgnd1 5V N009 20k
+Rvgnd2 N009 0 20k
+C3 N001 Stimulus 1.5µ
+C4 N006 N001 1.5µ
+R5 N002 N001 130k
+R6 VGND N006 130k
+R7 VGND N007 12k
+R8 N002 N007 20k
+XU2 N006 N007 5V 0 N002 TL081
+XU3 N009 VGND 5V 0 VGND TL081
+R9 N008 N002 180K
+C5 N008 0 180n
+XU4 filtered N005 5V 0 VoutBeatPulses TLC2272
+C6 filtered 0 180n
+R12 filtered N008 180K
+R10 5V N005 20k
+R11 N005 0 20k
+.tran 0 {transtop} 0 {timestep}
+.include E344cfg.txt
+* Don't change these -- used for auto-assessments.\nYou may modify input files while developing.\nFor submission: \n  * Use only 9V supply \n  * Connect "Stimulus" to your input\n  * Connect "VoutXXXX" to your output signals.\n  * Only one label name per net.
+* Config file:
+* Analysis setup:
+* Battery
+* Sensor-\nemulating \nstimulus
+* Assessed nets:\nConnect to your outputs
+* G. Maraist.,  21642818\nDC = 1700 mV\nHeart rate pk = 61.05 mV
+.incl LM78XX_RS.lib
+.incl TL081.lib
+.incl diode.lib
+.incl TLC2272.LIB
+.meas i(R_sense)
+.lib LM78XX_RS.lib
+.backanno
+.end

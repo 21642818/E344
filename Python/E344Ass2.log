@@ -1,0 +1,238 @@
+Circuit: * C:\Users\Jerri\Desktop\Assignment2\E344Ass2.asc
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 6.68666
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 6.72377
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 6.72131
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 7.57576%
+Source Step = 15.1515%
+Source Step = 22.7273%
+Source Step = 30.303%
+vernier = 0.0625
+Source Step = 29.5662%
+Source Step = 29.5958%
+Source Step = 29.6254%
+Source Step = 29.6549%
+Source Step = 29.6845%
+vernier = 0.00146484
+Source Step = 29.7171%
+Source Step = 29.7615%
+Source Step = 29.8059%
+Source Step = 29.8503%
+Source Step = 29.8946%
+vernier = 0.00219727
+Source Step = 29.9413%
+Source Step = 30.0078%
+Source Step = 30.0744%
+Source Step = 30.141%
+Source Step = 30.2076%
+Source Step = 30.2742%
+vernier = 0.0032959
+Source Step = 30.3741%
+Source Step = 30.4739%
+Source Step = 30.5738%
+Source Step = 30.6737%
+Source Step = 30.7736%
+vernier = 0.00494385
+Source Step = 30.9184%
+Source Step = 31.0682%
+Source Step = 31.218%
+Source Step = 31.3678%
+Source Step = 31.5176%
+vernier = 0.00741577
+Source Step = 31.7274%
+Source Step = 31.9521%
+Source Step = 32.1768%
+Source Step = 32.4015%
+Source Step = 32.6263%
+vernier = 0.0111237
+Source Step = 32.9296%
+Source Step = 33.2667%
+Source Step = 33.6038%
+Source Step = 33.9409%
+Source Step = 34.2779%
+vernier = 0.0166855
+Source Step = 34.7161%
+Source Step = 35.2218%
+Source Step = 35.7274%
+Source Step = 36.233%
+Source Step = 36.7386%
+vernier = 0.0250282
+Source Step = 37.3707%
+Source Step = 38.1291%
+Source Step = 38.8875%
+Source Step = 39.646%
+Source Step = 40.4044%
+vernier = 0.0375423
+Source Step = 41.3145%
+Source Step = 42.4521%
+Source Step = 43.5898%
+Source Step = 44.7274%
+Source Step = 45.8651%
+vernier = 0.0563135
+Source Step = 47.1734%
+Source Step = 48.8799%
+Source Step = 50.5863%
+Source Step = 52.2928%
+Source Step = 53.9993%
+vernier = 0.0844703
+Source Step = 55.8764%
+Source Step = 58.4361%
+Source Step = 60.9958%
+Source Step = 63.5555%
+Source Step = 66.1152%
+vernier = 0.126705
+Source Step = 68.8029%
+Source Step = 72.6424%
+Source Step = 76.482%
+Source Step = 80.3216%
+Source Step = 84.1611%
+Source Step = 88.0007%
+vernier = 0.190058
+Source Step = 91.4653%
+Source Step = 91.5553%
+Source Step = 91.6453%
+Source Step = 91.7352%
+Source Step = 91.8252%
+Source Step = 91.9152%
+Source Step = 92.0052%
+Source Step = 92.0952%
+Source Step = 92.1852%
+Source Step = 92.2752%
+Source Step = 92.3652%
+Source Step = 92.4552%
+Source Step = 92.5452%
+Source Step = 92.6351%
+Source Step = 92.7251%
+Source Step = 92.8151%
+Source Step = 92.9051%
+Source Step = 92.9951%
+Source Step = 93.0851%
+Source Step = 93.1751%
+Source Step = 93.2651%
+Source Step = 93.3551%
+Source Step = 93.4451%
+Source Step = 93.535%
+Source Step = 93.625%
+Source Step = 93.715%
+Source Step = 93.805%
+Source Step = 93.895%
+Source Step = 93.985%
+Source Step = 94.075%
+Source Step = 94.165%
+Source Step = 94.255%
+Source Step = 94.3449%
+Source Step = 94.4349%
+Source Step = 94.5249%
+Source Step = 94.6149%
+Source Step = 94.7049%
+Source Step = 94.7949%
+Source Step = 94.8849%
+Source Step = 94.9749%
+Source Step = 95.0649%
+Source Step = 95.1549%
+Source Step = 95.2448%
+Source Step = 95.3348%
+Source Step = 95.4248%
+Source Step = 95.5148%
+Source Step = 95.6048%
+Source Step = 95.6948%
+Source Step = 95.7848%
+Source Step = 95.8748%
+Source Step = 95.9648%
+Source Step = 96.0548%
+Source Step = 96.1447%
+Source Step = 96.2347%
+Source Step = 96.3247%
+Source Step = 96.4147%
+Source Step = 96.5047%
+Source Step = 96.5947%
+Source Step = 96.6847%
+Source Step = 96.7747%
+Source Step = 96.8647%
+Source Step = 96.9546%
+Source Step = 97.0446%
+Source Step = 97.1346%
+Source Step = 97.2246%
+Source Step = 97.3146%
+Source Step = 97.4046%
+Source Step = 97.4946%
+Source Step = 97.5846%
+Source Step = 97.6746%
+Source Step = 97.7646%
+Source Step = 97.8545%
+Source Step = 97.9445%
+Source Step = 98.0345%
+Source Step = 98.1245%
+Source Step = 98.2145%
+Source Step = 98.3045%
+Source Step = 98.3945%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 6.25%
+Source stepping failed
+
+Pseudo transient terminated at 102.389 s, solution accepted ready or not!
+Heightened Def Con from 0.944192 to 0.944192
+Heightened Def Con from 1.9785 to 1.9785
+Heightened Def Con from 1.98109 to 1.98109
+Heightened Def Con from 2.4367 to 2.4367
+Heightened Def Con from 4.4327 to 4.4327
+Heightened Def Con from 4.99984 +to 4.99984
+Heightened Def Con from 5.44 to 5.44
+Heightened Def Con from 9.9927 to 9.9927
+Heightened Def Con from 9.99528 to 9.99528
+Heightened Def Con from 10.4447 to 10.4447
+Heightened Def Con from 15.4454 to 15.4454
+Heightened Def Con from 15.9975 to 15.9975
+Heightened Def Con from 16.4422 to 16.4422
+Heightened Def Con from 19.9926 +to 19.9926
+Heightened Def Con from 20.9974 +to 20.9974
+Heightened Def Con from 21.9965 to 21.9965
+Heightened Def Con from 24.4412 +to 24.4412
+Heightened Def Con from 26.0007 to 26.0007
+Heightened Def Con from 26.9922 +to 26.9922
+Heightened Def Con from 27.9996 to 27.9996
+Heightened Def Con from 29.9968 to 29.9968
+
+iout: AVG(i(r_sense)*1000)=-12.4942 FROM 0 TO 30.0008
+
+
+Date: Sun Sep 27 21:49:50 2020
+Total elapsed time: 28.092 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 342107
+traniter = 210506
+tranpoints = 75411
+accept = 68743
+rejected = 8575
+matrix size = 215
+fillins = 1235
+solver = Normal
+Thread vector: 12.6/8.5[4] 4.7/2.5[4] 5.7/3.3[4] 0.7/1.0[1]  2592/500
+Matrix Compiler1: 170.06 KB object code size  23.3/9.3/[6.2]
+Matrix Compiler2: 39.54 KB object code size  3.3/3.6/[1.4]
+
