@@ -1,6 +1,6 @@
 Circuit: * C:\Users\Jerri\OneDrive - Stellenbosch University\3rd Year EE\E Design 344\E344\LTSpice\Ass2ASCTemplate\21642818_Marais.asc
 
-WARNING: Less than two connections to node VBEAT.  This node is used by V5.
+WARNING: Less than two connections to node STIMULUS.  This node is used by V3.
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
@@ -35,126 +35,143 @@ Source Step = 29.5958%
 Source Step = 29.6254%
 Source Step = 29.6549%
 Source Step = 29.6845%
-Source Step = 29.7141%
 vernier = 0.00146484
-Source Step = 29.7585%
-Source Step = 29.8029%
-Source Step = 29.8473%
-Source Step = 29.8917%
-Source Step = 29.9361%
+Source Step = 29.7201%
+Source Step = 29.7644%
+Source Step = 29.8088%
+Source Step = 29.8532%
+Source Step = 29.8976%
 vernier = 0.00219727
-Source Step = 30.0004%
-Source Step = 30.067%
-Source Step = 30.1336%
-Source Step = 30.2002%
-Source Step = 30.2668%
+Source Step = 29.9487%
+Source Step = 30.0152%
+Source Step = 30.0818%
+Source Step = 30.1484%
+Source Step = 30.215%
 vernier = 0.0032959
-Source Step = 30.36%
-Source Step = 30.4599%
-Source Step = 30.5597%
-Source Step = 30.6596%
-Source Step = 30.7595%
+Source Step = 30.2882%
+Source Step = 30.3881%
+Source Step = 30.488%
+Source Step = 30.5879%
+Source Step = 30.6877%
 vernier = 0.00494385
-Source Step = 30.8943%
-Source Step = 31.0441%
-Source Step = 31.194%
-Source Step = 31.3438%
-Source Step = 31.4936%
+Source Step = 30.7926%
+Source Step = 30.9424%
+Source Step = 31.0922%
+Source Step = 31.242%
+Source Step = 31.3919%
+Source Step = 31.5417%
 vernier = 0.00741577
-Source Step = 31.6883%
-Source Step = 31.9131%
-Source Step = 32.1378%
-Source Step = 32.3625%
-Source Step = 32.5872%
+Source Step = 31.7664%
+Source Step = 31.9911%
+Source Step = 32.2158%
+Source Step = 32.4406%
+Source Step = 32.6653%
 vernier = 0.0111237
-Source Step = 32.8681%
-Source Step = 33.2052%
-Source Step = 33.5423%
-Source Step = 33.8794%
-Source Step = 34.2164%
+Source Step = 32.9911%
+Source Step = 33.3282%
+Source Step = 33.6653%
+Source Step = 34.0024%
+Source Step = 34.3394%
 vernier = 0.0166855
-Source Step = 34.6209%
-Source Step = 35.1266%
-Source Step = 35.6322%
-Source Step = 36.1378%
-Source Step = 36.6434%
+Source Step = 34.8114%
+Source Step = 35.317%
+Source Step = 35.8226%
+Source Step = 36.3282%
+Source Step = 36.8338%
 vernier = 0.0250282
-Source Step = 37.2249%
-Source Step = 37.9833%
-Source Step = 38.7418%
-Source Step = 39.5002%
-Source Step = 40.2586%
+Source Step = 37.5164%
+Source Step = 38.2749%
+Source Step = 39.0333%
+Source Step = 39.7917%
+Source Step = 40.5502%
 vernier = 0.0375423
-Source Step = 41.0929%
-Source Step = 42.2305%
-Source Step = 43.3682%
-Source Step = 44.5058%
-Source Step = 45.6435%
+Source Step = 41.5361%
+Source Step = 42.6738%
+Source Step = 43.8114%
+Source Step = 44.9491%
+Source Step = 46.0867%
 vernier = 0.0563135
-Source Step = 46.838%
-Source Step = 48.5445%
-Source Step = 50.2509%
-Source Step = 51.9574%
-Source Step = 53.6639%
-Source Step = 55.3704%
+Source Step = 47.5088%
+Source Step = 49.2152%
+Source Step = 50.9217%
+Source Step = 52.6282%
+Source Step = 54.3346%
 vernier = 0.0844703
-Source Step = 57.9301%
-Source Step = 60.4898%
-Source Step = 63.0495%
-Source Step = 65.6092%
-Source Step = 68.1689%
+Source Step = 56.3824%
+Source Step = 58.9421%
+Source Step = 61.5018%
+Source Step = 64.0615%
+Source Step = 66.6212%
 vernier = 0.126705
-Source Step = 71.8805%
-Source Step = 75.72%
-Source Step = 79.5596%
-Source Step = 83.3991%
-Source Step = 87.2387%
+Source Step = 69.5649%
+Source Step = 73.4044%
+Source Step = 77.244%
+Source Step = 81.0836%
+Source Step = 84.9231%
 vernier = 0.190058
-Source Step = 92.6141%
-Source Step = 98.3734%
-vernier = 0.0475145
-Source Step = 97.8695%
-Source Step = 97.9595%
-Source Step = 98.0494%
-Source Step = 98.1394%
-Source Step = 98.2294%
-Source Step = 98.3194%
-Source Step = 98.4094%
-Source Step = 98.4994%
-Source Step = 98.5894%
+Source Step = 89.1466%
+Source Step = 90.3435%
+Source Step = 90.4335%
+Source Step = 90.5235%
+Source Step = 90.6135%
+Source Step = 90.7034%
+Source Step = 90.7934%
+Source Step = 90.8834%
+Source Step = 90.9734%
+Source Step = 91.0634%
+Source Step = 91.1534%
+Source Step = 91.2434%
+Source Step = 91.3334%
+Source Step = 91.4234%
+Source Step = 91.5134%
+Source Step = 91.6033%
+Source Step = 91.6933%
+Source Step = 91.7833%
+Source Step = 91.8733%
+Source Step = 91.9633%
+Source Step = 92.0533%
+Source Step = 92.1433%
 Starting source stepping with srcstepmethod=1
 Source Step = 3.0303%
-Source Step = 12.1212%
-Source Step = 15.767%
+vernier = 0.25
+Source Step = 2.85275%
+vernier = 0.000976563
 Source stepping failed
 
-Pseudo transient terminated at 100.995 s, solution accepted ready or not!
-Heightened Def Con from 1.98987 to 1.98987
-Heightened Def Con from 10.0047 to 10.0047
-Heightened Def Con from 12.4961 to 12.4961
-Heightened Def Con from 18.4881 +to 18.4881
-Heightened Def Con from 23.997 to 23.997
-Heightened Def Con from 25.4916 to 25.4916
-Heightened Def Con from 26.4998 +to 26.4998
+Pseudo transient terminated at 101.82 s, solution accepted ready or not!
+Heightened Def Con from 0.114692 to 0.114692
+Heightened Def Con from 0.306229 to 0.306229
+Heightened Def Con from 0.306229 to 0.306229
+Heightened Def Con from 1.16112 to 1.16112
+Heightened Def Con from 1.16112 to 1.16112
+Heightened Def Con from 1.472 to 1.472
+Heightened Def Con from 2.70897 to 2.70897
+Heightened Def Con from 3.46919 to 3.46919
+Heightened Def Con from 3.90719 to 3.90719
+Heightened Def Con from 4.73071 to 4.73071
+Heightened Def Con from 4.73071 to 4.73071
+Heightened Def Con from 5.11096 to 5.11096
+Heightened Def Con from 5.11096 to 5.11096
+Heightened Def Con from 5.92434 to 5.92434
+Heightened Def Con from 6.3978 to 6.3978
 
 i(r_sense)=30.0005 FROM 0 TO 30.0005
 
 
-Date: Fri Sep 18 16:27:38 2020
-Total elapsed time: 10.983 seconds.
+Date: Sun Oct 18 22:05:38 2020
+Total elapsed time: 26.804 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 249712
-traniter = 166482
-tranpoints = 66844
-accept = 63114
-rejected = 5887
-matrix size = 217
-fillins = 981
+totiter = 333895
+traniter = 258274
+tranpoints = 95833
+accept = 88562
+rejected = 9058
+matrix size = 241
+fillins = 1259
 solver = Normal
-Thread vector: 14.2/8.9[4] 4.8/2.8[4] 6.1/4.9[4] 0.7/2.5[1]  2592/500
-Matrix Compiler1: 117.95 KB object code size  20.6/8.9/[5.2]
-Matrix Compiler2: 34.94 KB object code size  3.7/3.8/[1.4]
+Matrix Compiler1:    8379 opcodes  32.5/[12.7]/20.3
+Matrix Compiler2: 41.95 KB object code size  7.4/6.6/[2.5]
 
