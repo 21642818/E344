@@ -1,0 +1,21 @@
+\chapter{System and conclusion}
+\vspace{-5mm}
+\section{System}
+% Report on the ``so what'' or the take-away of the ciruit you designed in this report.  
+% Report on noise levels and how the Heart rate sensor will fit into the system (E.g. what the calibration will look like and what the the measurement error will be given the range, quantisation error and noise). 
+The circuit works as expected. This Heart Rate Sensor conditioning circuit will fit nicely into the system. The MCU can easily read the pulse inputs and count every high pulse for a duration of time and then relate that to BPM. This will only need one pin from the MCU, while also using very little current. The circuit is effective and make accurate pulses. In the way the circuit is built, it also allows it to be used with any DC offest from the heart beat sensor, given that it is between the ranges of \numrange{0}{5} \si{\volt}.\par
+It is not a very difficult circuit to implement, except when one wants to introduce a transducer to convert frequency signals to an analog output. It is quite difficult to find proper sources for this implantation online, let alone in stander Engineering textbooks. Once a source is found however, it can be even more difficult given \texttt{LTSpice} struggles with timestep errors.
+
+
+\section{Lessons learnt}
+% Write down at least three of the most important things you have learnt in Assignment 2, and state what you would have done differently if you had another chance. 
+Things that I learned in assignment 2:
+\begin{itemize}
+    \item Most importantly, I feel much more confident in my knowledge of \LaTeX and \texttt{LTSpice} and have learned hwo to use them properly, while also finding out how they are limited in certain aspects.
+    \item I learned how to implement filters in a more effective way,a nd how differnet filters can be used for different use cases.
+    \item I learned that you can build a lot of simple components like One-Shot timers, comparators, transducers and filters only by using op-amps, resistors and capacitors.
+    \item I learned that it is always wiser to start early and not procrastinate. Also, write down while you are designing so that you can always backtrack and find your steps. 
+\end{itemize}
+
+\par
+If I had another chance, I would spend more time working on the transducer. I spent almost 20 hours, if not more, on that part of the designed, but still could not get it working. I decided not to do it when I realised that if I keep working on this one part of the design, I will never finish on time.
